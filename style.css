@@ -157,6 +157,10 @@ h2{
 	background-repeat: no-repeat;
 	opacity: 1;
 	transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
 }
 	.size_and_shape:hover{
 		opacity: 0.5;
