@@ -3,5 +3,18 @@
     padding:0;
 }
 body{
-    background-image:url("");
+    height:100%;
+    width:100%;
+    background:url("landing page images/watching_over_the_world.jpeg") no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.position{
+    display:flex;
+    justify-content:center;
+}
+.wrapper{
+    margin:50%;
+    margin-left:50%;
 }
